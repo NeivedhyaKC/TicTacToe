@@ -1,0 +1,53 @@
+:root
+{
+    --header-color : #4C5C68;
+    --background-color : #C5C3C6;
+    --text-color :#B0E4DB;
+    --grid-color:#D8E4E9;
+}
+body
+{
+    margin: 0;
+    background-color: var(--background-color);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.header
+{   
+    margin: 0px 0px;
+    padding: 20px 0px;
+    background-color: var(--header-color);
+    font-size: 70px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+#guideMessage
+{
+    font-size: 30px;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 400px;
+    height: 400px;
+    background-color: var(--grid-color);
+    margin: 0 auto;
+}
+.grid button
+{
+    border: black 1px solid;
+    margin: 0 0;
+    font-size: 30px;
+}
+#restart
+{
+    font-size: 30px;
+    margin: 20px auto;
+    padding: 10px 10px;
+    border: none;
+    background-color: var(--header-color);
+    color: var(--text-color);
+    border-radius: 10px;
+}
